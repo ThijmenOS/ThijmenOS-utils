@@ -1,0 +1,34 @@
+{
+  "name": "@thijmenos/utils",
+  "version": "1.0.0",
+  "description": "the utilities for the thijmenos client projcts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThijmenOS/ThijmenOS-utils.git"
+  },
+  "keywords": [
+    "thijmenos"
+  ],
+  "author": "Thijmen Brand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThijmenOS/ThijmenOS-utils/issues"
+  },
+  "homepage": "https://github.com/ThijmenOS/ThijmenOS-utils#readme",
+  "devDependencies": {
+    "@thijmenos/eslint-config": "^1.0.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@thijmenos/common": "^1.0.0",
+    "@thijmenos/filesystem": "^1.0.0"
+  }
+}
