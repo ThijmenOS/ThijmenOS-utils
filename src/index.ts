@@ -1,3 +1,5 @@
-import { GenerateUUID, GetAppProperties, UpdateTime } from "./utils";
+import UpdateTime from "./updateTime";
+import GenerateUUID from "./generateUUID";
+// import GetAppProperties from "./getApplicationProperties";
 
-export { GenerateUUID, GetAppProperties, UpdateTime };
+export { UpdateTime, GenerateUUID };

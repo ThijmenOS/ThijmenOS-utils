@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "preset": "ts-jest",
+  "testEnvironment": "jsdom",
+  "transform": {
+    "^.+\\.ts?$": "ts-jest"
+  },
+  "moduleFileExtensions": ["ts", "js"],
+  "moduleDirectories": ["node_modules"],
+  "transformIgnorePatterns": ["node_modules/(?!@thijmenos)"]
+}
