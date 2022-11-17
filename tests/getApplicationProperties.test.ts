@@ -4,7 +4,7 @@
 
 import { describe, expect, test, jest } from "@jest/globals";
 import * as readfileModule from "../src/readFiles";
-import * as checkIfShortcutModule from "../src/checkIfShortcut";
+import * as checkIfShortcutModule from "../src/getShortcutProperties";
 import GetApplicationProperties from "../src/getApplicationProperties";
 import { ApplicationMetaDataObject } from "@thijmenos/common";
 

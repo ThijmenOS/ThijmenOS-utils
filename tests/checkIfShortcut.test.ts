@@ -4,7 +4,7 @@
 
 import { describe, expect, test, jest } from "@jest/globals";
 import * as readfileModule from "../src/readFiles";
-import { CheckShortCut } from "../src/checkIfShortcut";
+import { CheckShortCut } from "../src/getShortcutProperties";
 
 jest.mock("@thijmenos/filesystem", () => jest.fn());
 
