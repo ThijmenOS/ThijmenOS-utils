@@ -1,6 +1,6 @@
 {
-  "name": "@thijmenos/utils",
-  "version": "1.0.2",
+  "name": "@thijmen-os/utils",
+  "version": "1.0.0",
   "description": "the utilities for the thijmenos client projcts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
