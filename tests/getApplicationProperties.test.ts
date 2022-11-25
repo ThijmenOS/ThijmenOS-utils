@@ -6,13 +6,13 @@ import { describe, expect, test, jest } from "@jest/globals";
 import * as readfileModule from "../src/readFiles";
 import * as checkIfShortcutModule from "../src/getShortcutProperties";
 import GetApplicationProperties from "../src/getApplicationProperties";
-import { ApplicationMetaDataObject } from "@thijmenos/common";
+import { ApplicationMetaDataObject } from "@thijmen-os/common";
 
-jest.mock("@thijmenos/filesystem", () => jest.fn());
+jest.mock("@thijmen-os/filesystem", () => jest.fn());
 
 const fileToRead = `<head>
 <meta name='title' content='NoteBlock' />
-<meta name='iconLocation' content='C/OperatingSystem/Icons/ThijmenOsFileExplorer.svg' />
+<meta name='iconLocation' content='C/OperatingSystem/Icons/thijmen-osFileExplorer.svg' />
 <meta name='mimeTypes' content='txt' />
 </head>`;
 
@@ -27,7 +27,7 @@ describe("GetApplicationProperties", () => {
     const expected: ApplicationMetaDataObject = {
       applicationIdentifier: undefined,
       exeLocation: input,
-      iconLocation: "C/OperatingSystem/Icons/ThijmenOsFileExplorer.svg",
+      iconLocation: "C/OperatingSystem/Icons/thijmen-osFileExplorer.svg",
       mimeTypes: "txt",
       title: "NoteBlock",
     };

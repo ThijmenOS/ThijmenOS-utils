@@ -6,7 +6,7 @@ import { describe, expect, test, jest } from "@jest/globals";
 import * as readfileModule from "../src/readFiles";
 import { CheckShortCut } from "../src/getShortcutProperties";
 
-jest.mock("@thijmenos/filesystem", () => jest.fn());
+jest.mock("@thijmen-os/filesystem", () => jest.fn());
 
 describe("checkIfShortcut", () => {
   test("File is shortcut, return path", async () => {
@@ -31,7 +31,7 @@ describe("checkIfShortcut", () => {
 
   test("File is exe, return false", async () => {
     const exe =
-      "<meta name='title' content='NoteBlock' /><meta name='iconLocation' content='C/OperatingSystem/Icons/ThijmenOsFileExplorer.svg' />";
+      "<meta name='title' content='NoteBlock' /><meta name='iconLocation' content='C/OperatingSystem/Icons/thijmen-osFileExplorer.svg' />";
 
     jest.spyOn(readfileModule, "ReadFile").mockResolvedValue(exe);
     const input = "stringMustNotBeEmpty";

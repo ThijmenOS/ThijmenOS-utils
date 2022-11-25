@@ -1,4 +1,4 @@
-import { IconMetadataShape } from "@thijmenos/common";
+import { IconMetadataShape } from "@thijmen-os/common";
 import { ReadFile } from "./readFiles";
 
 export async function GetShortcutProperties(

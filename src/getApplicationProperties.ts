@@ -2,14 +2,14 @@
 //   ApplicationMetaData,
 //   ApplicationMetaDataFields,
 //   ApplicationMetaDataObject,
-// } from "@thijmenos/common";
+// } from "@thijmen-os/common";
 // import { GetShortcutProperties } from "./checkIfShortcut";
 // import { ReadFile } from "./readFiles";
 
 // export default async function GetAppProperties(
 //   appLocation: string
 // ): Promise<ApplicationMetaData> {
-//   const metaDataFileName = "thijmenos.appsettings.json";
+//   const metaDataFileName = "thijmen-os.appsettings.json";
 //   const iconMetadata = await GetShortcutProperties(appLocation);
 
 //   const fileContent = await ReadFile(appPath);
