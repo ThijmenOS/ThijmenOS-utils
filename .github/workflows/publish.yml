@@ -6,4 +6,5 @@ on:
 
 jobs:
   publish:
-    uses: thijmen-os/thijmenos-common/.github/workflows/publish-action.yml@production
+    uses: thijmenos/thijmenos-common/.github/workflows/publish.yml@production
+    secrets: inherit

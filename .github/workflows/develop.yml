@@ -1,0 +1,9 @@
+name: Publish package
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  publish:
+    uses: thijmenos/thijmenos-common/.github/workflows/develop.yml@production
